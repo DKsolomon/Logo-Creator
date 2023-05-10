@@ -33,8 +33,8 @@ function run() {
           
         }
       ])
-    
 
+      
     .then((data) => {
         const {logoText, textColor, shapeColor, logoShape} = data;
         
@@ -53,7 +53,7 @@ function run() {
         }
 
         console.log(shape);
-        
+  
         fs.writeFile("logo.svg", shape.render(), (err) => {
             if (err) throw err;
             console.log("Generated logo.svg");
