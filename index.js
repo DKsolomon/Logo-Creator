@@ -41,16 +41,18 @@ function run() {
         let shape;
         
         switch (logoShape){
-            case "circle":
-                shape = new Circle(logoText, textColor, shapeColor);
+            case "Circle":
+                shape = new Circle(textColor, logoText, shapeColor);
                 break;
             case "Square":
-                shape = new Square(logoText, textColor, shapeColor);
+                shape = new Square(textColor, logoText, shapeColor);
                 break;
             case "Triangle":
-                shape = new Triangle(logoText, textColor, shapeColor);
+                shape = new Triangle(textColor, logoText, shapeColor);
                 break;
         }
+
+        console.log(shape);
         
         fs.writeFile("logo.svg", shape.render(), (err) => {
             if (err) throw err;
