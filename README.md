@@ -10,4 +10,4 @@ To use this application, open the terminal and type in node index.js. Upon doing
 
 ## Video Walkthrough
 
-![Video walkthrough](https://drive.google.com/file/d/1yWQC0h3SrkngKT7aUQN-P64FyNBAJikE/view)
+[Video walkthrough](https://drive.google.com/file/d/1yWQC0h3SrkngKT7aUQN-P64FyNBAJikE/view)
